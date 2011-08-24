@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<TaskTypes>
+  <Type id="spelling-mistake">
+    <input datatype="xsd:string" />
+    <return datatype="xsd:string" />
+    <nillable />
+    <Example>
+      <input datatype="xsd:string">Daviid Camerin</input>
+      <return datatype="xsd:string">David Cameron</input>
+    </Example>
+  </Type>
+
+  <Type id="verify">
+    <input datatype="xsd:anyType" />
+    <return datatype="xsd:boolean" />
+  </Type>
+</TaskTypes>
