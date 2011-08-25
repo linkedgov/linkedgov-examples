@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:postcode="http://data.ordnancesurvey.co.uk/ontology/postcode/"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>DR R LYONS' PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</OpenDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441481822494">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1481 822494</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441481822494"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0">
+	<rdfs:label>Other</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/0">
+	<rdfs:label>EAGLE MEDICAL PRACTICE, STEFAN HOUSE, OLLIVIER CT., OLLIVIER STREET, ST.ANNES, ALDERNEY, GY9 3TD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/0"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/ALD200"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/YAF"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A">
+	<rdfs:label>Active</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z">
+	<rdfs:label>Not allocated to a PCT or Care Trust (this will only occur for records that are Closed, Dormant or Proposed - active practices should always have a PCT link</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0">
+	<rdfs:label>Other</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93TD">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>GY9 3TD</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/0">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93TD"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/1">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>DR JF COOPER'S PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-03-21</OpenDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441481822077">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1481 822077</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/1">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441481822077"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/1">
+	<rdfs:label>THE ISLAND MEDICAL CENTRE, SUNDIAL HOUSE, LES ROCQUETTES, ALDERNEY, GY9 3TF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/1">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/1"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/ALD210"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/YAF"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93TF">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>GY9 3TF</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/1">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93TF"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/2">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>DR PW HUNT'S PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</OpenDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/2">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/2">
+	<rdfs:label>VENELLE DU VAL DU SUD, ALDERNEY</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/2">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/2"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/ALD700"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/YAF"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/D">
+	<rdfs:label>Dormant</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/2">
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/D"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/3">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>DR JF MARK'S PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</OpenDate>
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/3">
+	<rdfs:label>FORT CORBLETS, ALDERNEY, GY9 3YJ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/3">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/3"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/ALD701"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/YAF"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/D"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93YJ">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>GY9 3YJ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/3">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/GY93YJ"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/4">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>DR LHF WALTON'S PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-01-01</OpenDate>
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/4">
+	<rdfs:label>LES SAPINS, 6 AUDERVILLE, ST. ANNE'S, ALDERNEY</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/4">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/4"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/ALD702"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/YAF"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/D"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/Z"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>THE DENSHAM SURGERY</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642672351">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1642 672351</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642672351"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4">
+	<rdfs:label>GP Practice</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/5">
+	<rdfs:label>THE HEALTH CENTRE, LAWSON STREET, STOCKTON, CLEVELAND, TS18 1HU</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/5"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81001"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B">
+	<rdfs:label>Allocated to a PCT or Care Trust</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/50"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4">
+	<rdfs:label>GP Practice</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS181HU">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS18 1HU</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/5">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/TS181HU"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/6">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>QUEENS PARK MEDICAL CENTRE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642679681">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1642 679681</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/6">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642679681"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/6">
+	<rdfs:label>QUEENS PARK MEDICAL CTR, FARRER STREET, STOCKTON ON TEES, CLEVELAND, TS18 2AW</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/6">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/6"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81002"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/50"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS182AW">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS18 2AW</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/6">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/TS182AW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/7">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>THE GALLAGHER PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441429272945">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1429 272945</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/7">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441429272945"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/7">
+	<rdfs:label>THE HEALTH CENTRE, VICTORIA ROAD, HARTLEPOOL, CLEVELAND, TS26 8DB</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/7">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/7"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81003"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/5D9"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS268DB">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS26 8DB</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/7">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/TS268DB"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/8">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>WOODLANDS ROAD SURGERY</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-04-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642247982">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1642 247982</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/8">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642247982"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/8">
+	<rdfs:label>6 WOODLANDS ROAD, MIDDLESBROUGH, CLEVELAND, TS1 3BE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/8">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/8"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81004"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/5KM"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS13BE">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS1 3BE</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/8">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/TS13BE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/9">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>SPRINGWOOD SURGERY</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441287619611">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1287 619611</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/9">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441287619611"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/9">
+	<rdfs:label>SPRINGWOOD SURGERY, RECTORY LANE, GUISBOROUGH, TS14 7DJ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/9">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/9"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81005"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/5QR"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS147DJ">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS14 7DJ</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/9">
+	<postcode:PostcodeUnit rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/TS147DJ"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/10">
+	<rdf:type rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/GpPractices"/>
+	<rdfs:label>TENNANT STREET MEDICAL PRACTICE</rdfs:label>
+	<OpenDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1974-04-01</OpenDate>
+	<JoinParentDate xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-01</JoinParentDate>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642613331">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref"/>
+	<rdfs:label>+44 1642 613331</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/10">
+	<vcard:tel rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/phone/+441642613331"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/practice_type/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/10">
+	<rdfs:label>TENNANT ST MED PRACT, FARRER STREET, STOCKTON ON TEES, TS18 2AT</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/10">
+	<vcard:adr rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/address/10"/>
+	<OrganisationCode xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationCode/A81006"/>
+	<PanSha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PanSha/Y51"/>
+	<Sha xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/sha/Q30"/>
+	<status xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/status/A"/>
+	<OrganisationSubType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/OrganisationSubType/B"/>
+	<ParentOrganisation xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/ParentOrganisation/50"/>
+	<PracticeType xmlns="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/" rdf:resource="http://data.linkedgov.org/data/nhs/GP_practices_doctors_surgeries/PraticeValue/4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://data.ordnancesurvey.co.uk/ontology/postcode/TS182AT">
+	<rdf:type rdf:resource="http://data.ordnancesurvey.co.uk/ontology/postcode/PostcodeUnit"/>
+	<rdfs:label>TS18 2AT</rdfs:label>
+</rdf:Description>
+</rdf:RDF>
