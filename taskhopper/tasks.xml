@@ -1,4 +1,5 @@
 <linkedgov-taskhopper>
-  <task task-id="1"/>
-  <task task-id="2"/>
+    <task id="1"/>
+    <task id="2"/>
+    <task id="3"/>
 </linkedgov-taskhopper>
