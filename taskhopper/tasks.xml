@@ -1,5 +1,5 @@
 <linkedgov-taskhopper>
-    <task id="1"/>
-    <task id="2"/>
-    <task id="3"/>
+    <task id="1" task-type="spelling-mistake" priority="5" />
+    <task id="2" task-type="spelling-mistake" />
+    <task id="3" task-type="entity-matching" priority="5" />
 </linkedgov-taskhopper>
