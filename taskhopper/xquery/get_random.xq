@@ -1,6 +1,5 @@
-let $tasks :=   for $task in collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task
-  order by util:random()
-  return $task
+let $count := count(collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task)
+let $random := util:random($count)
+let $row := collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task[position() = $random + 1]
 
-return <rsp>{ subsequence($tasks, 1, 1)  }</rsp>
-
+return <rsp> { $row } </rsp>
