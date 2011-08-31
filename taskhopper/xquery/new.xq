@@ -10,5 +10,10 @@ let $newElem := <task id="{$id}">
     { if ($issueUri = "") then () else <issue-uri href="{$issueUri}" /> }
   </task>
 
-for $task in collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper
-return update insert <task id="{$id}" /> into /linkedgov-taskhopper
+let $updateProcess := for $task in collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper
+  return update insert $newElem into /linkedgov-taskhopper
+
+return
+<rsp>
+  { collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task[@id = $id] }
+</rsp>
