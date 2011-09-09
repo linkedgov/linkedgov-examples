@@ -1,0 +1,16 @@
+<document>
+    <main>
+        <rdf:RDF xmlns:lg="http://linkedgov.org/schema/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <lg:School rdf:about="http://linkedgov.org/data/schools/1">
+                <lg:potentiallyIncorrect rdf:resource="http://linkedgov.org/data/schools/1/issue/1"/>
+            </lg:School>
+        </rdf:RDF>
+    </main>
+    <issue task-type="http://linkedgov.org/schema/task-types/factual-inaccuracy" uri="http://linkedgov.org/data/schools/1/issue/1">
+        <rdf:RDF xmlns:lg="http://linkedgov.org/schema/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="http://linkedgov.org/data/schools/1">
+                <postCode xmlns="http://linkedgov.org/schema/">AB123 45Z</postCode>
+            </rdf:Description>
+        </rdf:RDF>
+    </issue>
+</document>
