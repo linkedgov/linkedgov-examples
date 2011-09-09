@@ -5,7 +5,7 @@ let $graphUri := request:get-parameter("graph-uri", "")
 let $issueUri := request:get-parameter("issue-uri", "")
 
 let $newElem := <task id="{$id}">
-    { if ($taskType = "") then () else <task-type>{$taskType}</task-type> }
+    { if ($taskType = "") then () else <task-type href="{$taskType}" /> }
     { if ($graphUri = "") then () else <graph-uri href="{$graphUri}" /> }
     { if ($issueUri = "") then () else <issue-uri href="{$issueUri}" /> }
   </task>
