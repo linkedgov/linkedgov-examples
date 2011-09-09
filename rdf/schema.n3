@@ -1,0 +1,30 @@
+@prefix : <> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# LinkedGov schema
+
+:TaskType a owl:Class;
+  rdfs:label "task type"@en;
+  rdfs:comment "A type of task in LinkedGov's task system."@en
+.
+
+:exampleData a owl:DatatypeProperty;
+  rdfs:label "example data"@en;
+  rdfs:comment "Hard-coded sample data to be presented to users of valid responses."@en;
+  rdfs:domain :TaskType;
+  #rdfs:range rdfs:Literal
+.
+
+:generateExampleData a owl:DatatypeProperty;
+  rdfs:label "Generate example data"@en;
+  rdfs:comment "Used to specify whether example data should be generated if not provided using exampleData."@en;
+  rdfs:domain :TaskType;
+  rdfs:range xsd:boolean
+.
