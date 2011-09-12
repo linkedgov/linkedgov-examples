@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+  xmlns="http://relaxng.org/ns/structure/1.0"
+  xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+      <element name="linkedgov-taskhopper">
+        <zeroOrMore>
+          <element name="task">
+            <attribute name="id">
+              <data type="int" />
+            </attribute>
+            <interleave>
+              <element name="task-type">
+                <ref name="href" />
+              </element>
+              <element name="issue-uri">
+                <ref name="href" />
+              </element>
+              <element name="graph-uri">
+                <ref name="href" />
+              </element>
+            </interleave>
+          </element>
+        </zeroOrMore>
+      </element>
+    </start>
+  
+  <define name="href">
+    <attribute name="href">
+      <data type="anyURI" />
+    </attribute>
+  </define>
+</grammar>
