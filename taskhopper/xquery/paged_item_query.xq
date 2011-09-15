@@ -9,6 +9,6 @@ return
 {
 for $item in $matches
 return
-<li>{util:document-name($item)}</li>
+<li>{document-uri($item)}</li>
 }
 </rsp>
