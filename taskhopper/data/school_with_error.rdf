@@ -1,5 +1,5 @@
 <document>
-    <dataset href="http://linkedgov.org/data/schools/" title="Schools" />
+    <dataset href="http://linkedgov.org/data/schools/" title="Schools" id="schools" />
     <main>
         <rdf:RDF xmlns:lg="http://linkedgov.org/schema/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <lg:School rdf:about="http://linkedgov.org/data/schools/1">
