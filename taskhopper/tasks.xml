@@ -1,32 +1,27 @@
 <linkedgov-taskhopper>
     <task id="1">
-        <task-type href="http://linkedgov.org/task/types/spelling-mistake" />
-        <priority>5</priority>
+        <task-type href="http://linkedgov.org/task/types/duck-house"/>
+        <graph-uri href="http://linkedgov.org/data/mp-expenses/1"/>
+        <issue-uri href="http://linkedgov.org/data/mp-expenses/1/issues/1"/>
     </task>
     <task id="2">
-        <task-type href="http://linkedgov.org/task/types/spelling-mistake" />
-    </task>
-    <task id="3">
-        <task-type href="http://linkedgov.org/task/types/entity-matching" />
-        <priority>5</priority>
-    </task>
-    <task id="4">
-        <graph-uri href="http://linkedgov.org/data/mp-expenses/1"/>
-        <issue-uri href="http://linkedgov.org/data/mp-expenses/1/issues/1"/>
-    </task>
-    <task id="5">
-        <task-type href="http://linkedgov.org/task/types/duck-house" />
-        <graph-uri href="http://linkedgov.org/data/mp-expenses/1"/>
-        <issue-uri href="http://linkedgov.org/data/mp-expenses/1/issues/1"/>
-    </task>
-    <task id="6">
-        <task-type href="http://linkedgov.org/task/types/duck-house" />
+        <task-type href="http://linkedgov.org/task/types/duck-house"/>
         <graph-uri href="http://linkedgov.org/data/mp-expenses/2"/>
         <issue-uri href="http://linkedgov.org/data/mp-expenses/2/issues/1"/>
     </task>
-    <task id="7">
-        <task-type href="http://linkedgov.org/task/types/duck-house" />
+    <task id="3">
+        <task-type href="http://linkedgov.org/task/types/duck-house"/>
         <graph-uri href="http://linkedgov.org/data/mp-expenses/3"/>
         <issue-uri href="http://linkedgov.org/data/mp-expenses/3/issues/1"/>
+    </task>
+    <task id="4">
+        <task-type href="http://linkedgov.org/schema/task-types/float-error"/>
+        <graph-uri href="http://localhost:8080/exist/rest//db/linkedgov/dwp-electricity-use/1"/>
+        <issue-uri href="http://linkedgov.org/data/dwp-electricity-use/1/issue/1"/>
+    </task>
+    <task id="5">
+        <task-type href="http://linkedgov.org/schema/task-types/float-error"/>
+        <graph-uri href="http://localhost:8080/exist/rest//db/linkedgov/dwp-electricity-use/1"/>
+        <issue-uri href="http://linkedgov.org/data/dwp-electricity-use/1/issue/1"/>
     </task>
 </linkedgov-taskhopper>
