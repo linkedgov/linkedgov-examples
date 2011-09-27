@@ -1,5 +1,11 @@
 let $id := request:get-parameter("id", "")
 
-for $task in collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task[@id=$id]
+let $deletes := for $task in document("linkedgov-meta/taskhopper/tasks.xml")/linkedgov-taskhopper/task[@id=$id]
   where string(number($id)) != "NaN"
-return update delete $task
+  return update delete $task
+
+return <rsp> {
+for $task in document("linkedgov-meta/taskhopper/tasks.xml")/linkedgov-taskhopper/task[@id=$id]
+  return <li>{$task}</li>
+}
+</rsp>
