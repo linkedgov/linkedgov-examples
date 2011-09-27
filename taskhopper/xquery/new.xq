@@ -1,4 +1,6 @@
-let $nextId := max(collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task/number(string(@id))) + 1
+let $maxId := max(collection("linkedgov-meta/taskhopper")/linkedgov-taskhopper/task/number(string(@id)))
+let $nextId := if (string($maxId) = "NaN") then 1 else $maxId + 1
+
 let $id := request:get-parameter("id", string($nextId))
 let $taskType := request:get-parameter("task-type", "")
 let $graphUri := request:get-parameter("graph-uri", "")
