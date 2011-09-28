@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<document>
+    <dataset href="http://linkedgov.org/data/dwp-electricity-use/" title="Electricity use by the DWP" id="dwp-electricity-use" />
+    <main>
+        <rdf:RDF xmlns:lg="http://linkedgov.org/schema/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="http://linkedgov.org/data/dwp-electricity-use/5">
+                <lg:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-05</lg:date>
+                <lg:potentiallyIncorrect rdf:resource="http://linkedgov.org/data/dwp-electricity-use/5/issue/1"/>
+            </rdf:Description>
+        </rdf:RDF>
+    </main>
+    <issue task-type="http://linkedgov.org/schema/task-types/float-error" uri="http://linkedgov.org/data/dwp-electricity-use/5/issue/1">
+        <rdf:RDF xmlns:lg="http://linkedgov.org/schema/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="http://linkedgov.org/data/dwp-electricity-use/5">
+                <kwhUsed xmlns="http://linkedgov.org/schema/" rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37--48</kwhUsed>
+            </rdf:Description>
+        </rdf:RDF>
+    </issue>
+</document>
