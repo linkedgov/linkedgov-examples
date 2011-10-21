@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<rdf:RDF
+            xmlns:oo="http://purl.org/openorg/"
+            xmlns:cc="http://creativecommons.org/ns#"
+            xmlns:tags="http://www.holygoat.co.uk/projects/tags/"
+            xmlns:foaf="http://xmlns.com/foaf/0.1/"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:time="http://www.w3.org/2006/time#"
+            xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dct="http://purl.org/dc/terms/"
+            xmlns:lg="http://example.linkedgov.org/example-postbox/terms/"
+            xmlns:owl="http://www.w3.org/2002/07/owl#"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+   <rdf:Description rdf:about="http://example.linkedgov.org/example-GP">
+          <dct:title>Post Box Locations</dct:title>
+          <oo:corrections rdf:resource="mailto:fixme@linkedgov.org" />
+          <dct:license rdf:resource="http://reference.data.gov.uk/id/open-government-licence" />
+          <cc:attributionURL rdf:resource="http://example.linkedgov.org/madeUpExample" />
+          <cc:attributionName>Linked Gov</cc:attributionName>
+       
+          <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual" />
+       
+           <dct:publisher>Linked Gov</dct:publisher>
+           <dct:created>2011-09-19</dct:created>
+           <dct:source rdf:resource="http://http://www.dracos.co.uk/"/>
+           <foaf:page rdf:resource="http://www.dracos.co.uk/play/locating-postboxes/" />
+       
+           <tags:taggedWithTag>
+                   <rdf:Description><tags:tagName>postbox</tags:tagName></rdf:Description>
+           </tags:taggedWithTag>
+           <tags:taggedWithTag>
+                   <rdf:Description><tags:tagName>location</tags:tagName></rdf:Description>
+           </tags:taggedWithTag>
+           <tags:taggedWithTag>
+                   <rdf:Description><tags:tagName>postcode</tags:tagName></rdf:Description>
+           </tags:taggedWithTag>
+   </rdf:Description>
+            
+    <rdf:Description rdf:about="http://example.linkedgov.org/example-postbox/1">
+            <rdf:type rdf:resource="http://example.linkedgov.org/example-postbox/terms/Postbox"/>
+            <lg:id>BS5 218</lg:id>
+            <lg:location>
+                    <geo:Point>
+                        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.4579472</geo:lat>
+                        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-2.5655495</geo:long>
+                    </geo:Point>
+            </lg:location>
+            <lg:last-collection-weekday rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</lg:last-collection-weekday>
+            <lg:last-collection-saturday rdf:datatype="http://www.w3.org/2001/XMLSchema#time">12:00:00</lg:last-collection-saturday>
+    </rdf:Description>
+    
+    <owl:Class rdf:about="http://example.linkedgov.org/example-postbox/terms/Postbox">
+        <rdfs:label xml:lang="en">postbox</rdfs:label>
+        <rdfs:comment xml:lang="en">an active Royal Mail postbox</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:resource="http://example.linkedgov.org/example-postbox/terms/id">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty" />
+        <rdfs:label xml:lang="en">ID</rdfs:label>
+        <rdfs:comment xml:lang="en">the ID of the postbox</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:resource="http://example.linkedgov.org/example-postbox/terms/last-collection-weekday">
+        <rdfs:label xml:lang="en">last collection on a weekday</rdfs:label>
+        <rdfs:comment xml:lang="en">the time of the last collection from this postbox on a weekday</rdfs:comment>
+        <rdf:range rdf:resource="http://www.w3.org/2001/XMLSchema#time" />
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:resource="http://example.linkedgov.org/example-postbox/terms/last-collection-saturday">
+        <rdfs:label xml:lang="en">last collection on a Saturday</rdfs:label>
+        <rdfs:comment xml:lang="en">the time of the last collection from this postbox on a Saturday</rdfs:comment>
+        <rdf:range rdf:resource="http://www.w3.org/2001/XMLSchema#time" />
+    </owl:DatatypeProperty>
+    
+    <owl:ObjectProperty rdf:resource="http://example.linkedgov.org/example-postbox/terms/location">
+        <rdfs:label xml:lang="en">location</rdfs:label>
+        <rdfs:comment xml:lang="en">the location of the postbox</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point" />
+    </owl:ObjectProperty>
+    
+    </rdf:RDF>
